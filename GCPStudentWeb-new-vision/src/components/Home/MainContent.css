@@ -28,6 +28,17 @@
 
 .btns-con{
     margin-top: 3rem;
+
+}
+.btns-con a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.btns-con a:link{
+    text-decoration: none;
+    color: white;
 }
 
 

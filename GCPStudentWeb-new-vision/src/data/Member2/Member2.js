@@ -1,5 +1,5 @@
 import image1 from '../Member2/icon/Cheong_Wai_Lok.jpeg'
-import image2 from '../Member2/icon/Chan_Ho_Fung.jpeg'
+import image2 from '../Member2/icon/Chan_Ho_Fung.png'
 import image3 from '../Member2/icon/Chu_Ka_Shing.jpeg'
 import image4 from '../Member2/icon/Han_Man_Ki.jpg'
 import image5 from '../Member2/icon/Lau_Kwan_Hung.png'
@@ -10,16 +10,17 @@ import image9 from '../Member2/icon/Liu_hok_lai.jpeg'
 import image10 from '../Member2/icon/Luan_Ho_Yin.jpeg'
 import image11 from  '../Member2/icon/Tsang_Chun_Hung.jpg'
 import image12 from '../Member2/icon/Yun_Ka_Lok.jpg'
+import image13 from '../../ICON/LawMeiChing.png'
 
 export const MemberList2 = [
     {
-        name: "Cheong Wai Lok",
-        image: image1,
+        name: "Law Mei Ching",
+        image: image13,
         position: "DSC-IVE Team Lead",
     },
     {
-        name: "Chan Ho Fung",
-        image: image2,
+        name: "Cheong Wai Lok",
+        image: image1,
         position: "Core Team Member",
     },
     {
@@ -68,8 +69,37 @@ export const MemberList2 = [
         position: "Core Team Member",
     },
     {
+        name: "Chan Ho Fung",
+        image: image2,
+        position: "Core Team Member",
+    },
+    {
         name: "Yun Ka Lok",
         image: image12,
+        position: "Core Team Member",
+    },
+    {
+        name: "Ling Po Chu",
+        position: "Core Team Member",
+    },
+    {
+        name: "Lum Shing Fung",
+        position: "Core Team Member",
+    },
+    {
+        name: "Ng Man Hei",
+        position: "Core Team Member",
+    },
+    {
+        name: "YU Nga Man",
+        position: "Core Team Member",
+    },
+    {
+        name: "Mou Rong",
+        position: "Core Team Member",
+    },
+    {
+        name: "Hui Man Chun",
         position: "Core Team Member",
     },
 ];

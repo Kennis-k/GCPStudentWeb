@@ -4,6 +4,7 @@ import SmallHeading from './SmallHeading';
 import blockchain from '../../image/12476380705.png';
 import "./MainContent.css"
 
+
 function MainContent() {
     return (
             <div className="MainContent">

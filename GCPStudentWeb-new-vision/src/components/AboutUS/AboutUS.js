@@ -31,11 +31,11 @@ const AboutUS = () => (
         <Carousel.Item>
             <img
                 className="d-block w-100"
-                src={image2}
+                src={image1}
                 alt="Second slide"
             />
             <Carousel.Caption>
-                <div className="SecondContent">
+                <div className="leftContent">
                     <h3>What we do?</h3>
                     <p>We are aiming at meeting students on campus interested in developer technologies, including those with diverse backgrounds and different majors. By providing a variety of events and workshops, we pormote and teach different cutting-edge technology through hands-on mini projects to students.</p>
                 </div>

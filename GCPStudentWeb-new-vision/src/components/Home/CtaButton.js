@@ -1,11 +1,12 @@
 import React from 'react'
 import styled from 'styled-components';
+import { Link } from 'react-router-dom'
 
 function CtaButton({name}) {
     return (
-        <CtaButtonStyled>
+        <Link to="/aboutUS"><CtaButtonStyled>
             {name}
-        </CtaButtonStyled>
+        </CtaButtonStyled></Link>
     )
 }
 
@@ -19,7 +20,7 @@ const CtaButtonStyled = styled.a`
     cursor: pointer;
     transition: all .4s ease-in-out;
     &:last-child{
-        margin-left: 1.5rem;
+        margin-left: 0;
     }
     &:hover{
         transition: all .4s ease-in-out;

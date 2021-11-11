@@ -1,8 +1,8 @@
 import AlexCheng from '../../ICON/AlexCheng.png'
 import AlexLuk from '../../ICON/AlexLuk.png'
 import AnsonLam from '../../ICON/AnsonLam.png'
-import ChanManFung from '../../ICON/Chan man Fung.png'
-import CHANWaiLam from '../../ICON/CHAN Wai Lam.png'
+import ChanManFung from '../../ICON/ChanmanFung.png'
+import CHANWaiLam from '../../ICON/CHANWaiLam.png'
 import ChoiCheukLam from '../../ICON/ChoiCheukLam.png'
 import FokWaiYin from '../../ICON/FokWaiYin.png'
 import HugoCheng from '../../ICON/HugoCheng.png'
@@ -14,9 +14,9 @@ import MakYeungFung from '../../ICON/MakYeungFung.png'
 import PunChoYan from '../../ICON/PunChoYan.png'
 import RonaldLeung from '../../ICON/RonaldLeung.png'
 import SamLam from '../../ICON/SamLam.png'
-import image1 from '../../ICON/TIAN Li.png'
+import image1 from '../../ICON/TIANLi.png'
 import TsuiKaYan from '../../ICON/TsuiKaYan.png'
-import WONGChiuChing from '../../ICON/WONG Chiu Ching.png'
+import WONGChiuChing from '../../ICON/WONGChiuChing.png'
 
 export const MemberList1 = [
     {

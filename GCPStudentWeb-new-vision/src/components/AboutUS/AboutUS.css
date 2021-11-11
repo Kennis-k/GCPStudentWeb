@@ -1,26 +1,28 @@
+.Carousel{
+    height: 100vh;
+}
 .carousel-inner {
  background: black;
-    height: 77vh
-;
+    height: 77vh;
 }
 
 .d-block {
     opacity: 0.3;
 }
 
+.carousel-caption {
+    bottom: 30%;
+}
+
 .leftContent {
-    position: absolute;
-    right: 15%;
-    bottom: 103px
-;
     left: 15%;
     z-index: 10;
-    padding-top: 20px
-;
-    padding-bottom: 20px
-;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto;
     color: #fff;
     text-align: center;
+    width:70%;
 }
 
 .leftContent h3 {
@@ -32,26 +34,4 @@
     text-align: left;
 }
 
-.SecondContent {
-    position: absolute;
-    right: 15%;
-    bottom: 221px
-;
-    left: 15%;
-    z-index: 10;
-    padding-top: 20px
-;
-    padding-bottom: 20px
-;
-    color: #fff;
-    text-align: center;
-}
 
-.SecondContent h3 {
-    text-align: left;
-}
-
-
-.SecondContent  p{
-    text-align: left;
-}

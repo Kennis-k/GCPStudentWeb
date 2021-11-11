@@ -9,8 +9,9 @@ function Footer() {
     return <div className="footer">
         <div className="socialMedia">
             {""}
-            <InstagramIcon /><TwitterIcon /><FacebookIcon /><LinkedInIcon />
-        </div>
+            {/*<InstagramIcon /><TwitterIcon /><FacebookIcon /><LinkedInIcon />*/}
+            <a href="https://www.facebook.com/DSCIVE/" target="_blank"><FacebookIcon /></a>
+        </div>c
         <p> &copy; 2021 GcpStudentClub.com</p>
     </div>;
 }
