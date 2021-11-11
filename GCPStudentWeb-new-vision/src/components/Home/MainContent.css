@@ -1,0 +1,42 @@
+.MainContent {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 90vh;
+    display: flex;
+}
+.MainCon{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 100%;
+    width: 100%;
+}
+.left {
+    height: 100%;
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    color: white;
+}
+.left h1{
+    padding: 1.8rem 0;
+}
+
+.btns-con{
+    margin-top: 3rem;
+}
+
+
+
+.right {
+    height: 100%;
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}

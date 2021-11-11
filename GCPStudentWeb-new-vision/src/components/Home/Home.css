@@ -1,0 +1,22 @@
+.MainAreaStyled {
+    width: 100%;
+    height: 85vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.MainAreaStyled .overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    right: -400px;
+    top: -300px;
+
+}
+
+.MainAreaStyled video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.9;
+}

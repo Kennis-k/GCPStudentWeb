@@ -1,0 +1,57 @@
+.carousel-inner {
+ background: black;
+    height: 77vh
+;
+}
+
+.d-block {
+    opacity: 0.3;
+}
+
+.leftContent {
+    position: absolute;
+    right: 15%;
+    bottom: 103px
+;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px
+;
+    padding-bottom: 20px
+;
+    color: #fff;
+    text-align: center;
+}
+
+.leftContent h3 {
+ text-align: left;
+}
+
+
+.leftContent  p{
+    text-align: left;
+}
+
+.SecondContent {
+    position: absolute;
+    right: 15%;
+    bottom: 221px
+;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px
+;
+    padding-bottom: 20px
+;
+    color: #fff;
+    text-align: center;
+}
+
+.SecondContent h3 {
+    text-align: left;
+}
+
+
+.SecondContent  p{
+    text-align: left;
+}
