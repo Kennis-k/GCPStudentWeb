@@ -12,9 +12,8 @@ function App() {
         <div className="App">
             <Router>
                 <Nav_Top />
-                <Home />
                 <Switch>
-                    <Route path="/" exact component={Home} />
+                    <Route path="/GCPStudentWeb/" exact component={Home} />
                     <Route path="/main" exact component={Main} />
                     <Route path="/aboutUS" exact component={AboutUS} />
                     <Route path="/news" exact component={News} />
