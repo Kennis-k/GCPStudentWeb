@@ -15,14 +15,14 @@ function Navbar() {
             <div className="leftSide" id={openLinks ? "open" : "close"}>
                 <img src={Logo} /> <div className="logoName"><h4>Google Developer Student Club (IVE)</h4></div>
                 <div className="hiddenLinks">
-                    <Link to="/"> Home </Link>
+                    <Link to="/GCPStudentWeb/"> Home </Link>
                     <Link to="/main"> Member </Link>
                     <Link to="/aboutUS"> AboutUs </Link>
                     <Link to="/news"> News </Link>
                 </div>
             </div>
             <div className="rightSide">
-                <Link to="/"> Home </Link>
+                <Link to="/GCPStudentWeb/"> Home </Link>
                 <Link to="/main"> Member </Link>
                 <Link to="/aboutUS"> AboutUs </Link>
                 <Link to="/news"> News </Link>
