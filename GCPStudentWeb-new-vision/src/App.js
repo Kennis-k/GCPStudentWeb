@@ -12,6 +12,7 @@ function App() {
         <div className="App">
             <Router>
                 <Nav_Top />
+                <Home />
                 <Switch>
                     <Route path="/" exact component={Home} />
                     <Route path="/main" exact component={Main} />
