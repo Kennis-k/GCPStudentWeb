@@ -3,20 +3,18 @@ import React from "react";
 import "./AboutUS.css";
 import {Carousel} from "react-bootstrap";
 import image1 from '../../image/logo_bg.png';
-import image2 from  '../../image/cloud.png'
-
-
+import image2 from '../../image/cloud.png'
 
 
 const AboutUS = () => (
     <Carousel>
         <Carousel.Item>
             <img
-                className="d-block w-100"
+                className="bg_image"
                 src={image1}
                 alt="First slide"
             />
-            <Carousel.Caption >
+            <Carousel.Caption>
                 <div className="leftContent">
                     <h3>Who We are?</h3>
                     <p>We are Developer Student Clubs(DSCs) in Vocational Training Council Hong Kong. DSCs are
@@ -29,20 +27,23 @@ const AboutUS = () => (
             </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-            <img
-                className="d-block w-100"
-                src={image1}
-                alt="Second slide"
-            />
-            <Carousel.Caption>
-                <div className="leftContent">
-                    <h3>What we do?</h3>
-                    <p>We are aiming at meeting students on campus interested in developer technologies, including those with diverse backgrounds and different majors. By providing a variety of events and workshops, we pormote and teach different cutting-edge technology through hands-on mini projects to students.</p>
-                </div>
-            </Carousel.Caption>
-        </Carousel.Item>
-    </Carousel>
+                <img
+                    className="bg_image"
+                    src={image1}
+                    alt="Second slide"
+                />
+                <Carousel.Caption>
+                    <div className="leftContent">
+                        <h3>What we do?</h3>
+                        <p>We are aiming at meeting students on campus interested in developer technologies, including
+                            those with diverse backgrounds and different majors. By providing a variety of events and
+                            workshops, we promote and teach different cutting-edge technology through hands-on mini
+                            projects to students.</p>
+                    </div>
+                </Carousel.Caption>
+            </Carousel.Item>
 
+    </Carousel>
 
 
 );

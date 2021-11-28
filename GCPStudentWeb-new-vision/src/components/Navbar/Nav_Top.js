@@ -13,7 +13,7 @@ function Navbar() {
     return (
         <div className="navbar">
             <div className="leftSide" id={openLinks ? "open" : "close"}>
-                <img src={Logo} /> <div className="logoName"><h4>Google Developer Student Club (IVE)</h4></div>
+                <img className="desktop" src={Logo} /><div className="logoName"><h4>Google Developer Student Club (IVE)</h4></div>
                 <div className="hiddenLinks">
                     <Link to="/GCPStudentWeb/"> Home </Link>
                     <Link to="/main"> Member </Link>

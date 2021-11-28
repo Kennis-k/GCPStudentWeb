@@ -6,12 +6,15 @@
     height: 77vh;
 }
 
-.d-block {
+.bg_image {
     opacity: 0.3;
+    min-width: 100%;
+    height: auto;
 }
 
 .carousel-caption {
     bottom: 30%;
+    top:30%;
 }
 
 .leftContent {

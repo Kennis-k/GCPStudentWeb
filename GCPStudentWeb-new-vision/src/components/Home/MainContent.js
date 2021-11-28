@@ -12,7 +12,7 @@ function MainContent() {
                     <div className="left">
                         <SmallHeading title={'Leading with simplicity and intelligence'} identifier={'Before'} />
                         <h1>
-                            Developer Student Club (IVE) <span className='GradientText'><br /></span>
+                            Google Developer Student Club (IVE) <span className='GradientText'><br /></span>
                         </h1>
                         <p>
                             By Google Developers
@@ -22,7 +22,7 @@ function MainContent() {
                         </div>
                     </div>
                     <div className="right">
-                        <img src={blockchain} alt="" />
+                        <img  className="main_bg" src={blockchain} alt="" />
                     </div>
                 </div>
             </div>

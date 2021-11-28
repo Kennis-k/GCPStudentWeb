@@ -9,6 +9,7 @@
     margin: 11px;
     color: white;
     padding-top: 8px;
+    display: block;
 }
 
 .navbar .leftSide {
@@ -35,6 +36,7 @@
     color: white;
     text-decoration: none;
     margin: 20px;
+    visibility: hidden;
 }
 
 .navbar .rightSide button {
@@ -59,9 +61,15 @@
     display: inherit;
 }
 
+.navbar #open .logoName {
+    display: none;
+}
+
+
+
 .navbar #open .hiddenLinks {
-    display: inherit;
-    margin-left: 30px;
+    position: sticky;
+    margin-left: 90px;
 }
 
 .navbar #close .hiddenLinks {
@@ -71,17 +79,67 @@
 .navbar #open a {
     width: 70px;
     margin: 5px;
+    visibility: visible;
+    font-size:25px;
 }
-@media only screen and (max-width: 900px) {
+
+@media screen and (max-width: 1200px) {
     .navbar .rightSide a {
         width: 70px;
+    }
+    .navbar .rightSide  {
+        flex: 0;
     }
     .navbar .leftSide {
         padding-left: 50px;
     }
+    .navbar .rightSide button {
+        visibility: visible;
+    }
+    .navbar .leftSide .logoName{
+        display: none;
+    }
+    .navbar #open .hiddenLinks {
+        margin-left: 30px;
+    }
+
+    .navbar #close .hiddenLinks {
+        display: none;
+    }
+
+}
+@media screen and (max-width: 992px) {
+    .navbar .rightSide a {
+        width: 13px;
+    }
+    .navbar .leftSide {
+        padding-left: 50px;
+    }
+    .navbar .rightSide button {
+        visibility: visible;
+    }
+    .navbar .leftSide .logoName{
+        display: none;
+    }
+
+}
+@media only screen and (max-width: 768px) {
+    .navbar .rightSide a {
+        width: 10px;
+    }
+    .navbar .leftSide {
+        padding-left: 50px;
+    }
+    .navbar .rightSide button {
+        visibility: visible;
+    }
+    .navbar .leftSide .logoName{
+        display: none;
+    }
+
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .navbar .rightSide a {
         display: none;
     }
@@ -92,16 +150,67 @@
     }
 
     .navbar .rightSide button {
-        display: inherit;
+        visibility: visible;
     }
+    .navbar .leftSide .logoName{
+        display: none;
+    }
+
+
+
 }
 
-@media only screen and (min-width: 600px) {
-    .navbar .rightSide button {
+@media only screen and (max-width: 400px) {
+    .navbar .leftSide{
+        padding-left: 15px;
+    }
+    .navbar .rightSide a {
         display: none;
     }
 
-    .hiddenLinks {
+    .navbar .rightSide {
+        justify-content: flex-end;
+        padding-right: 50px;
+    }
+
+    .navbar .rightSide button {
+        visibility: visible;
+    }
+    .navbar .leftSide .logoName{
         display: none;
     }
+
+}
+
+@media only screen and (max-width: 300px) {
+    .navbar .leftSide{
+        padding-left: 0px;
+    }
+    .navbar #open .hiddenLinks {
+        margin-left: 0px;
+    }
+
+    .navbar .rightSide a {
+        display: none;
+    }
+
+    .navbar .rightSide {
+        justify-content: flex-end;
+        padding-right: 50px;
+    }
+
+    .navbar .rightSide button {
+        visibility: visible;
+        margin-right: -33px;
+    }
+    .navbar .leftSide .logoName{
+        position: relative;
+    }
+
+    .navbar .leftSide .h4 {
+        display: none;
+    }
+
+
+
 }
